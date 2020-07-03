@@ -17,7 +17,7 @@ package com.dm.thread;
   * @version V1.0
   */
 public class deadLock {
-
+//
     private final static String resource_A = "A";
 
     private final static String resource_B = "B";
