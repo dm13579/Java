@@ -14,8 +14,6 @@
         <module>java-thread</module>
         <module>java-proxy</module>
         <module>java-reflect</module>
-        <module>java-sort</module>
-        <module>java-tree</module>
         <module>java-jvm</module>
     </modules>
 
