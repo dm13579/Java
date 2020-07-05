@@ -21,3 +21,8 @@ java-thread/java-thread.iml
 java-jvm/java-jvm.iml
 java-jvm/target/
 java-tree/java-tree.iml
+.idea/libraries/Maven__org_openjdk_jol_jol_core_0_9.xml
+java-io/target/
+java-proxy/target/
+java-reflect/target/
+java-thread/target/
