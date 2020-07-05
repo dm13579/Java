@@ -1,4 +1,4 @@
-package com.dm.classloader;
+package com.dm;
 
 import com.dm.bean.User;
 

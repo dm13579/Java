@@ -19,6 +19,8 @@ package com.dm.bean;
   **/
 public class User {
 
+    private int id;
+
     private int age;
 
     private String name;
@@ -48,5 +50,13 @@ public class User {
                 "age=" + age +
                 ", name='" + name + '\'' +
                 '}';
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
