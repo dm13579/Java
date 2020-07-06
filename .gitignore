@@ -17,3 +17,12 @@ java-io/java-io.iml
 java-reflect/java-reflect.iml
 java-sort/java-sort.iml
 java-thread/java-thread.iml
+.idea/uiDesigner.xml
+java-jvm/java-jvm.iml
+java-jvm/target/
+java-tree/java-tree.iml
+.idea/libraries/Maven__org_openjdk_jol_jol_core_0_9.xml
+java-io/target/
+java-proxy/target/
+java-reflect/target/
+java-thread/target/
