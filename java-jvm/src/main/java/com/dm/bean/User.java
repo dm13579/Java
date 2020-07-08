@@ -21,19 +21,30 @@ public class User {
 
     private int id;
 
-    private int age;
+    private String uuid;
 
     private String name;
 
     public User() {
     }
 
-    public int getAge() {
-        return age;
+    public User(int id, String uuid) {
+        this.id = id;
+        this.uuid = uuid;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public User(int id, String uuid, String name) {
+        this.id = id;
+        this.uuid = uuid;
+        this.name = name;
+    }
+
+    public String getUuid() {
+        return uuid;
+    }
+
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
     }
 
     public String getName() {
@@ -47,7 +58,7 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "age=" + age +
+                "uuid=" + uuid +
                 ", name='" + name + '\'' +
                 '}';
     }
