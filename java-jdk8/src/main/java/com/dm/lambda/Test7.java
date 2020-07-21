@@ -1,5 +1,7 @@
 package com.dm.lambda;
 
+import org.omg.CORBA.INTERNAL;
+
 import java.util.function.Function;
 
 /**
@@ -33,5 +35,8 @@ public class Test7 {
         System.out.println(a);
         int b = addfunction("39", s -> Integer.parseInt(s), s -> s%10);
         System.out.println(b);
+
+        Function<String, Integer> function = Integer::parseInt;
+        System.out.println(function.apply("5"));
     }
 }

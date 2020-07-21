@@ -40,6 +40,9 @@ public class Test6 {
     public static void main(String[] args) {
         String something = "hello";
         String something1 = "world";
+        // ClassName::methodName 方法引用，当你需要使用方法引用的时候，目标放在分隔符后面，方法的名称放在后面
+        // 比如说这里something :: equal 表示的就是引用了something中定义的equals方法 something.equals(s);
+        // 不需要括号,因为你没有实际调用这个方法，方法引用就是lambda的快捷写法
         boolean a = predicate("handsome", something::equals);
         System.out.println(a);
 
@@ -53,5 +56,10 @@ public class Test6 {
 
         boolean d = orpredicate("handsome",s-> something.equals(s),s-> something1.equals(s));
         System.out.println(d);
+        System.out.println("================================================");
+        Predicate<String> predicate = (s)->something.equals(s);
+        Predicate<String> predicate1 = (s)->something1.equals(s);
+        System.out.println(predicate.and(predicate1).test("hello"));
+        System.out.println(predicate.or(predicate1).test("hello"));
     }
 }

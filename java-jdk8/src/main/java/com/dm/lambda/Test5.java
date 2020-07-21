@@ -39,5 +39,8 @@ public class Test5 {
         doubleConsumer("hello",
                 s -> System.out.println(s+" world"),
                 s -> System.out.println(s+" bad"));
+
+        Consumer<String> consumer = (s)-> System.out.println(s+"ddd");
+        consumer.accept("hhh");
     }
 }

@@ -40,6 +40,9 @@ public class Test4 {
         String str12 = newString(() -> "hello");
         System.out.println("lambda简化:" + str12);
 
+        Supplier<String> supplier = () -> new String("aaa");
+        System.out.println(supplier.get());
+
         int[] arr = {1, 2, 3, 4, 12, 44, 1, 1431, 4124, 1241};
         int max = getMax(() -> {
             int rtn = arr[0];
