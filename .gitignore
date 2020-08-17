@@ -26,3 +26,6 @@ java-io/target/
 java-proxy/target/
 java-reflect/target/
 java-thread/target/
+/java-java8/target/classes/com/dm/lambda$GreetingService.class
+/java-java8/target/classes/com/dm/lambda$MathOperation.class
+/java-java8/target/classes/com/dm/lambda.class

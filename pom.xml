@@ -16,6 +16,7 @@
         <module>java-reflect</module>
         <module>java-jvm</module>
         <module>java-java8</module>
+        <module>java-juc</module>
     </modules>
 
 </project>
