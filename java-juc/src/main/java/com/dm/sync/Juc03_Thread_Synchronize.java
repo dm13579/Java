@@ -32,6 +32,6 @@ public class Juc03_Thread_Synchronize {
 
     public static void main(String[] args)
     {
-        com.yg.edu.Juc03_Thread_Synchronize.reentrantlock();
+        Juc03_Thread_Synchronize.reentrantlock();
     }
 }

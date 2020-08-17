@@ -1,6 +1,6 @@
 package com.dm.thread.lock;
 
-import com.yg.edu.util.UnsafeInstance;
+import com.dm.thread.util.UnsafeInstance;
 import sun.misc.Unsafe;
 
 import java.util.concurrent.ConcurrentLinkedQueue;

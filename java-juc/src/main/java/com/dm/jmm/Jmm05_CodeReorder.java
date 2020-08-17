@@ -1,6 +1,6 @@
 package com.dm.jmm;
 
-import com.yg.edu.jmm.util.UnsafeInstance;
+import com.dm.jmm.util.UnsafeInstance;
 import lombok.extern.slf4j.Slf4j;
 
 /**

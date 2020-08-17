@@ -24,11 +24,11 @@ public class Juc_LockOnThisObject {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }*/
-        com.yg.edu.Juc_LockOnThisObject to = new com.yg.edu.Juc_LockOnThisObject();
+        Juc_LockOnThisObject to = new Juc_LockOnThisObject();
         //System.out.println(ClassLayout.parseInstance(to).toPrintable());
         to.decrStock();
 
-        com.yg.edu.Juc_LockOnThisObject to1 = new com.yg.edu.Juc_LockOnThisObject();
+        Juc_LockOnThisObject to1 = new Juc_LockOnThisObject();
         to1.decrStock();
     }
 }

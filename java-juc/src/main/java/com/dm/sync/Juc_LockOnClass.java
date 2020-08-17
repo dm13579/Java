@@ -20,7 +20,7 @@ public class Juc_LockOnClass {
 
     public static void main(String[] args) {
         //Juc_LockOnClass.class对象
-        com.yg.edu.Juc_LockOnClass.decrStock();
+        Juc_LockOnClass.decrStock();
     }
 
 }

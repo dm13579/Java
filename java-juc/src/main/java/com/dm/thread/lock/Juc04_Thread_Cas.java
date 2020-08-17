@@ -1,6 +1,6 @@
 package com.dm.thread.lock;
 
-import com.yg.edu.util.UnsafeInstance;
+import com.dm.thread.util.UnsafeInstance;
 import lombok.extern.slf4j.Slf4j;
 import sun.misc.Unsafe;
 

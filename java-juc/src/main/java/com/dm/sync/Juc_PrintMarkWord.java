@@ -17,7 +17,7 @@ public class Juc_PrintMarkWord {
         // 因为jvm启动的过程中会有大量的同步块，且这些同步块都有竞争，如果一启动就启动
         // 偏向锁，会出现很多没有必要的锁撤销
         Thread.sleep(5000);
-        com.yg.edu.T t = new com.yg.edu.T();
+        T t = new T();
         //未出现任何获取锁的时候
         System.out.println(ClassLayout.parseInstance(t).toPrintable());
         synchronized (t){
