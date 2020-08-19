@@ -33,7 +33,7 @@ public class Juc04_Thread_ReentrantLock {
         }
 
 
-        lock.lock();
+//        lock.lock();
 
 
     }

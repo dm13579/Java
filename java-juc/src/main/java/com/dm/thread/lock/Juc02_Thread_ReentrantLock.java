@@ -30,11 +30,11 @@ public class Juc02_Thread_ReentrantLock {
         //默认创建的是独占锁，排它锁；同一时刻读或者写只允许一个线程获取锁
         lock.lock();
         log.info("Thread:{},第一次加锁",threadName);
-            lock.lock();
-            log.info("Thread:{},第二次加锁",threadName);
-            lock.unlock();
-            log.info("Thread:{},第一次解锁",threadName);
-        lock.unlock();
+//            lock.lock();
+//            log.info("Thread:{},第二次加锁",threadName);
+//            lock.unlock();
+//            log.info("Thread:{},第一次解锁",threadName);
+//        lock.unlock();
         log.info("Thread:{},第二次解锁",threadName);
     }
 
